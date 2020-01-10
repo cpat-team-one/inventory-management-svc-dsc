@@ -1,6 +1,9 @@
 package com.ibm.inventory_management.models;
+
 import java.io.Serializable;
+
 public class StockItem implements Serializable {
+    
     private String name;
     private String id = null;
     private int stock = 0;
